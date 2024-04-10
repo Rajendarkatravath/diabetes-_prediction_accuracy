@@ -21,4 +21,6 @@ jobs:
         with:
           context: .  # Build context (current directory)
           push: true   # Push the image to Docker Hub
-          tags: ${{ secrets.DOCKER_USERNAME }}/{{ github.event.repository.name }}:latest  # Image tag using repository name
+          tags: ${{ secrets.DOCKER_USERNAME }}/{{ github.event.repository.name }}:latest  # Corrected Image Tag
+
+
